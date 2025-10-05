@@ -1,0 +1,72 @@
+.container {
+  background: rgba(30, 30, 30, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 2.5rem;
+  margin-top: 5rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* --- UPDATED: AESTHETIC GLOW STYLE FOR THE TITLE --- */
+.container h1 {
+  text-align: center;
+  font-weight: 700 !important;
+  /* A slightly softer base color */
+  color: #d7f5be;
+  /* A more subtle, layered shadow for a soft "aura" effect */
+  text-shadow:
+    /* A tight, bright inner bloom to define the letters */
+    0 0 2px rgba(255, 255, 255, 0.7),
+    /* A soft, medium-sized glow */
+    0 0 15px rgba(173, 255, 47, 0.4),
+    /* A very faint, wide aura to blend with the background */
+    0 0 40px rgba(173, 255, 47, 0.2);
+  padding-bottom: 0.5rem;
+}
+/* --- END OF UPDATED STYLES --- */
+
+.MuiTypography-root,
+.MuiOutlinedInput-root .MuiOutlinedInput-input,
+.MuiInputLabel-root {
+  color: #f0f0f0 !important;
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.MuiSelect-icon {
+    color: #f0f0f0 !important;
+}
+
+.MuiButton-contained {
+  background: rgba(173, 255, 47, 0.15) !important;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(173, 255, 47, 0.2);
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.3);
+  color: #fff !important;
+  transition: all 0.3s ease !important;
+  font-weight: 600 !important;
+}
+
+.MuiButton-contained:hover {
+  background: rgba(173, 255, 47, 0.3) !important;
+  box-shadow: 0 0 15px 2px rgba(173, 255, 47, 0.4), 0 4px 20px 0 rgba(0, 0, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+.MuiButton-contained:disabled {
+  background: rgba(80, 80, 80, 0.2) !important;
+  color: rgba(255, 255, 255, 0.3) !important;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: none !important;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.container .MuiTypography-colorError {
+  color: #ff8a80 !important;
+}

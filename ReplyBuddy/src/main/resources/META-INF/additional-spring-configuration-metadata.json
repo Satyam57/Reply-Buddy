@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "gemini.api.key",
+    "type": "java.lang.String",
+    "description": "The full URL for the Gemini API, including the model and action."
+  },
+  {
+    "name": "gemini.api.url",
+    "type": "java.lang.String",
+    "description": "The full endpoint URL for the Gemini model."
+  }
+]}

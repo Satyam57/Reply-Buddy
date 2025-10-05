@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    // Tells VS Code to understand modern JSX syntax used by React
+    "jsx": "react-jsx"
+  },
+  // Tells VS Code that your source code is inside the "src" folder
+  "include": ["src"]
+}
