@@ -125,6 +125,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 👤 Contact
 
-Satyam - [Your Email or LinkedIn Profile]
+Satyam - satyamprakash5555@gmail.com
 
 Project Link: [https://github.com/Satyam57/Reply-Buddy](https://github.com/Satyam57/Reply-Buddy)
